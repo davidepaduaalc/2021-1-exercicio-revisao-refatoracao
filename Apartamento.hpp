@@ -20,9 +20,7 @@ class Apartamento : public Imovel {
 
     double comissao() {
 
-        double c = AREA * VALORm2;
-
-        return c * 0.04;
+        return valor() * porcentagem;
         
     }
 
