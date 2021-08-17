@@ -16,6 +16,7 @@ class Imovel {
         double VALORm2;
         double Valor;
         double C;
+        double porcentagem;
         Cliente vendedor;
         string corretor;
 
