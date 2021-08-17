@@ -19,6 +19,20 @@ class Imovel {
         double porcentagem;
         Cliente vendedor;
         string corretor;
+    
+         double valor() {
+
+            double v = AREA * VALORm2;
+
+            return v;
+
+        }
+
+         double comissao() {
+
+             return valor() * porcentagem;
+        
+        }
 
         void print() {
             cout << "[Vendedor]" << endl;
